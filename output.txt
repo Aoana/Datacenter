@@ -1,0 +1,1958 @@
+[2023-12-11T21:48:48] [INFO] Building image...
+sha256:76360a276fcab03f2232b0582c7746b580622e5c575b94874cef2453f7d5957b
+[2023-12-11T21:48:49] [INFO] Running checker...
+VMCHECKER_TRACE_CLEANUP
+Mon Dec 11 19:48:49 UTC 2023
+Running RR_Test1 (5 points)...
+tasks null + Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+15 time0.01
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+tasks null + Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+16 time1.001
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+15 time1.013
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+16 time2.002
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+15 time2.014
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+16 time3.003
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+15 time3.015
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+16 time4.004
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+15 time4.016
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+5.005
+tasks null + Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+16 time5.005
++++Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+5.017
+tasks null + Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+15 time5.017
++++Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+16 time6.006
++++Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+15 time6.018
++++Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+16 time7.007
++++Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+15 time7.019
++++Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+16 time8.008
++++Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+15 time8.02
++++Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+16 time9.009
++++Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+15 time9.021
++++Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+16 time10.01
++++Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+15 time10.022
++++Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+11.011
+tasks null + Task5{start=4, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+16 time11.011
++++Task5{start=4, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=2, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+11.023
+tasks null + Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+15 time11.023
++++Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=4, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+16 time12.012
++++Task5{start=4, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.024
+---Task5{start=4, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.013
+notify 15
+notify 16
+OK
+Running RR_Test2 (5 points)...
+tasks null + Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+tasks null + Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+19 time0.001
+20 time0.001
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
++++Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+tasks null + Task6{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+tasks null + Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+21 time1.001
+22 time1.001
++++Task6{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+20 time1.002
+19 time1.002
++++Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task6{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+22 time2.002
+21 time2.002
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
++++Task6{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+19 time2.003
+20 time2.003
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
++++Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task6{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+21 time3.003
+22 time3.003
++++Task6{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+19 time3.004
+20 time3.004
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
++++Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+22 time4.004
+21 time4.004
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task6{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+19 time4.005
+20 time4.005
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task6{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+0
+5.005
+5.005
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+---Task9{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+5.006
+5.006
+tasks null + Task1{start=6, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks null + Task4{start=6, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+19 time6.001
+20 time6.001
++++Task1{start=6, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task4{start=6, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks null + Task10{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks null + Task7{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+21 time7.001
+22 time7.001
++++Task10{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task7{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=6, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+---Task1{start=6, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+7.003
+7.003
+tasks null + Task2{start=8, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+19 time8.001
++++Task2{start=8, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task7{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task10{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+8.002
+0
+8.002
+tasks null + Task8{start=9, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+20 time9.001
++++Task8{start=9, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task2{start=8, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+19 time9.002
++++Task2{start=8, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+tasks null + Task5{start=10, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+21 time10.001
++++Task5{start=10, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task8{start=9, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+20 time10.002
++++Task8{start=9, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task2{start=8, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+19 time10.003
++++Task2{start=8, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task5{start=10, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+21 time11.002
++++Task5{start=10, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task8{start=9, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+20 time11.003
++++Task8{start=9, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=8, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+19 time11.004
++++Task2{start=8, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks null + Task11{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+22 time12.001
++++Task11{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task5{start=10, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+21 time12.003
++++Task5{start=10, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task8{start=9, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.004
+---Task2{start=8, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.005
+---Task11{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+22 time13.002
++++Task11{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=10, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.004
+---Task11{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+14.003
+notify 19
+notify 20
+notify 21
+notify 22
+OK
+Running RR_Test3 (10 points)...
+tasks null + Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+27 time0.0
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+tasks null + Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+28 time1.0
++++Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+27 time1.001
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+28 time2.001
++++Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+27 time2.002
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+28 time3.002
++++Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+27 time3.003
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+28 time4.003
++++Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+tasks Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0} + Task2{start=4, duration=1000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+27 time4.004
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+28 time5.004
++++Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0} + Task2{start=4, duration=1000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+27 time5.005
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+28 time6.005
++++Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task2{start=4, duration=1000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+27 time6.006
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=1, duration=6000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+7.006
+tasks null + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+28 time7.006
++++Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+7.007
+tasks null + Task2{start=4, duration=1000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+27 time7.007
++++Task2{start=4, duration=1000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+28 time8.007
++++Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=4, duration=1000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+8.008
+tasks null + Task1{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+27 time8.008
++++Task1{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+9.008
+tasks null + Task4{start=3, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+28 time9.008
++++Task4{start=3, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task1{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+27 time9.009
++++Task1{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task4{start=3, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+28 time10.009
++++Task4{start=3, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task1{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+27 time10.01
++++Task1{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task4{start=3, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+28 time11.01
++++Task4{start=3, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+27 time11.011
++++Task1{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=3, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+28 time12.011
++++Task4{start=3, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task1{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.012
+---Task4{start=3, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.012
+notify 27
+notify 28
+OK
+Running RR_Test4 (5 points)...
+tasks null + Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=5000, finish=0.0}
+31 time0.0
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=5000, finish=0.0}
+tasks null + Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+32 time1.0
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+31 time1.001
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+32 time2.001
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+tasks Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0} + Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+31 time2.002
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+tasks Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0} + Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+32 time3.002
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=5000, finish=0.0}
+31 time3.003
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=5000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=5000, finish=0.0}
+32 time4.003
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=5000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+31 time4.004
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+32 time5.004
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+31 time5.005
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+32 time6.005
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+31 time6.006
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+32 time7.006
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+31 time7.007
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+32 time8.007
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+8.008
+tasks null + Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+31 time8.008
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+9.008
+tasks null + Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+32 time9.008
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+31 time9.009
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+32 time10.009
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+31 time10.01
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=0, finish=0.0}
+0
+11.01
+tasks null + Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+32 time11.01
++++Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=true, left=0, finish=0.0}
+0
+11.011
+tasks null + Task2{start=5, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+31 time11.011
++++Task2{start=5, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+32 time12.011
++++Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=5, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.012
+---Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.012
+notify 31
+notify 32
+OK
+Running RR_Test5 (5 points)...
+tasks null + Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+35 time0.001
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+tasks null + Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+36 time1.001
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+35 time1.002
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+36 time2.002
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+tasks Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0} + Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+35 time2.003
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+tasks Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0} + Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+36 time3.003
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0} + Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+35 time3.004
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=5000, finish=0.0}
+36 time4.004
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=5000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+35 time4.005
++++Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+36 time5.005
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+5.006
+tasks null + Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+35 time5.006
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=6000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+36 time6.006
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=5000, finish=0.0}
+35 time6.007
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=5000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+36 time7.007
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+35 time7.008
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+36 time8.008
++++Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+35 time8.009
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+---Task4{start=3, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+9.009
+tasks null + Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+36 time9.009
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+35 time9.01
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+36 time10.01
++++Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+35 time10.011
++++Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=0, finish=0.0}
+0
+11.011
+tasks null + Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+36 time11.011
++++Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=2, duration=6000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+11.012
+tasks null + Task2{start=5, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+35 time11.012
++++Task2{start=5, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+36 time12.012
++++Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=5, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.013
+---Task5{start=6, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.013
+notify 35
+notify 36
+OK
+Running SQ_Test1 (5 points)...
+totalSize0
+totalSize0
+(((((39
+)))))40
+tasks null + Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+40 time0.005
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+totalSize0
+totalSize1
+tasks null + Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+39 time1.005
++++Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+40 time1.006
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+39 time2.006
++++Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+40 time2.007
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+39 time3.007
++++Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+40 time3.008
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+4.008
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+40 time4.009
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+totalSize0
+totalSize1
+tasks null + Task2{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+39 time5.005
++++Task2{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+40 time5.01
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+totalSize1
+totalSize1
+(((((39
+)))))40
+---Task2{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+39 time6.006
++++Task2{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+40 time6.011
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+39 time7.007
++++Task2{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+7.012
+tasks null + Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+40 time7.012
++++Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+---Task2{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+39 time8.008
++++Task2{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+40 time8.012
++++Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task2{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+9.009
+---Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+40 time9.013
++++Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+totalSize0
+totalSize1
+tasks null + Task4{start=10, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+39 time10.001
++++Task4{start=10, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+40 time10.014
++++Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task4{start=10, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+11.003
+---Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+40 time11.015
++++Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+totalSize0
+totalSize1
+tasks null + Task5{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+39 time12.002
++++Task5{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+40 time12.016
++++Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task5{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+39 time13.003
++++Task5{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+40 time13.017
++++Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task5{start=12, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+14.004
+---Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+40 time14.018
++++Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=6, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+15.019
+notify 39
+notify 40
+OK
+Running SQ_Test2 (5 points)...
+totalSize0
+totalSize0
+(((((43
+)))))44
+totalSize0
+(((((44
+)))))45
+totalSize0
+totalSize0
+(((((43
+)))))44
+tasks null + Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+totalSize1
+45 time0.002
++++Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+tasks null + Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+44 time0.002
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+totalSize0
+totalSize1
+totalSize1
+tasks null + Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+43 time1.002
++++Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+44 time1.003
+45 time1.003
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
++++Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+43 time2.003
++++Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+45 time2.003
++++Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+44 time2.003
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+45 time3.004
+44 time3.004
++++Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+0
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+3.004
+totalSize0
+totalSize1
+totalSize1
+tasks null + Task2{start=4, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+43 time4.003
++++Task2{start=4, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+45 time4.005
+44 time4.005
++++Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+totalSize1
+totalSize1
+(((((43
+)))))44
+totalSize1
+(((((44
+)))))45
+---Task2{start=4, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+43 time5.004
++++Task2{start=4, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+44 time5.006
+45 time5.006
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
++++Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+totalSize1
+totalSize1
+(((((43
+)))))44
+totalSize2
+---Task2{start=4, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+43 time6.005
++++Task2{start=4, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+44 time6.007
+45 time6.007
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
++++Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+43 time7.006
++++Task2{start=4, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+44 time7.008
+45 time7.008
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+8.007
+---Task3{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+0
+8.009
+8.009
+tasks null + Task5{start=6, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+tasks null + Task4{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+44 time8.009
+45 time8.009
++++Task5{start=6, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
++++Task4{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+totalSize0
+totalSize1
+totalSize1
+tasks null + Task6{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+43 time9.003
++++Task6{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task5{start=6, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task4{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+44 time9.01
+45 time9.01
++++Task5{start=6, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
++++Task4{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task6{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+43 time10.004
++++Task6{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task5{start=6, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+44 time10.011
+45 time10.011
++++Task5{start=6, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task4{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task6{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+43 time11.005
++++Task6{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task5{start=6, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task4{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+0
+45 time11.012
+11.012
++++Task4{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+43 time12.006
++++Task6{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=5, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.013
+---Task6{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.007
+notify 43
+notify 44
+notify 45
+OK
+Running SQ_Test3 (10 points)...
+totalSize0
+totalSize0
+(((((48
+)))))49
+tasks null + Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+49 time0.001
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+totalSize0
+totalSize1
+tasks null + Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+48 time1.001
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+49 time1.002
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+totalSize1
+totalSize1
+(((((48
+)))))49
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+48 time2.002
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+49 time2.003
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+totalSize1
+totalSize2
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+48 time3.003
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+49 time3.004
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+totalSize2
+totalSize2
+(((((48
+)))))49
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+48 time4.004
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+tasks Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0} + Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+49 time4.005
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+totalSize2
+totalSize3
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+tasks Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+48 time5.005
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0} + Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+49 time5.006
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+tasks Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+48 time6.006
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+49 time6.007
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+48 time7.007
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+7.008
+tasks null + Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+49 time7.008
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+48 time8.008
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+49 time8.009
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+9.009
+tasks null + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+48 time9.009
++++Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+49 time9.01
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+48 time10.01
++++Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+49 time10.011
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+11.011
+tasks null + Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+48 time11.011
++++Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+11.012
+tasks null + Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+49 time11.012
++++Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.012
+---Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+49 time12.013
++++Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+49 time13.014
++++Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+14.015
+notify 48
+notify 49
+OK
+Running SQ_Test4 (5 points)...
+totalSize0
+totalSize0
+(((((52
+)))))53
+tasks null + Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=7000, finish=0.0}
+53 time0.001
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=7000, finish=0.0}
+totalSize0
+totalSize1
+tasks null + Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=8000, finish=0.0}
+52 time1.001
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=8000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=6000, finish=0.0}
+53 time1.002
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=6000, finish=0.0}
+totalSize1
+totalSize1
+(((((52
+)))))53
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=7000, finish=0.0}
+52 time2.002
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=7000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=5000, finish=0.0}
+53 time2.003
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=5000, finish=0.0}
+totalSize1
+totalSize2
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=6000, finish=0.0}
+52 time3.003
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=6000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+53 time3.004
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+totalSize2
+totalSize2
+(((((52
+)))))53
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=5000, finish=0.0}
+52 time4.004
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=5000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+tasks Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0} + Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+53 time4.005
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+totalSize2
+totalSize3
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+tasks Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+52 time5.005
++++Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+53 time5.006
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+---Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+52 time6.006
++++Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+53 time6.007
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+7.007
+tasks null + Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+52 time7.007
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+53 time7.008
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+52 time8.008
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+8.009
+tasks null + Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+53 time8.009
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+52 time9.009
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+53 time9.01
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+52 time10.01
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+53 time10.011
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=true, left=0, finish=0.0}
+0
+11.011
+tasks null + Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+52 time11.011
++++Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=0, finish=0.0}
+0
+11.012
+tasks null + Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+53 time11.012
++++Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.012
+---Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+53 time12.013
++++Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+53 time13.014
++++Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+14.015
+notify 52
+notify 53
+OK
+Running SQ_Test5 (5 points)...
+totalSize0
+totalSize0
+(((((56
+)))))57
+tasks null + Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=7000, finish=0.0}
+57 time0.004
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=7000, finish=0.0}
+totalSize0
+totalSize1
+tasks null + Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+56 time1.004
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=6000, finish=0.0}
+57 time1.006
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=6000, finish=0.0}
+totalSize1
+totalSize1
+(((((56
+)))))57
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+56 time2.005
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=5000, finish=0.0}
+57 time2.007
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=5000, finish=0.0}
+totalSize1
+totalSize2
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+56 time3.006
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+57 time3.008
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+totalSize2
+totalSize2
+(((((56
+)))))57
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+56 time4.006
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+tasks Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0} + Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+57 time4.009
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=4000, finish=0.0}
+totalSize2
+totalSize3
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+tasks Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+56 time5.007
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+57 time5.01
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=3000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+tasks Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+56 time6.008
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+57 time6.011
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+56 time7.009
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+57 time7.012
++++Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+56 time8.01
++++Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=4, duration=4000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+8.012
+tasks null + Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+57 time8.012
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task3{start=1, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+9.011
+tasks null + Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+56 time9.011
++++Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+57 time9.013
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+56 time10.012
++++Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+57 time10.014
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task5{start=5, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+11.013
+tasks null + Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+56 time11.013
++++Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=true, left=0, finish=0.0}
+0
+11.015
+tasks null + Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+57 time11.015
++++Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task4{start=3, duration=1000, type=SHORT, priority=100, isPreemptible=true, left=0, finish=0.0}
+0
+12.014
+---Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+57 time12.016
++++Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+57 time13.017
++++Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task1{start=2, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+14.018
+notify 56
+notify 57
+OK
+Running SITA_Test1 (10 points)...
+tasks null + Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=8000, finish=0.0}
+tasks null + Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=5000, finish=0.0}
+62 time0.0
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=8000, finish=0.0}
+tasks null + Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+61 time0.0
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=5000, finish=0.0}
+60 time0.001
++++Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=7000, finish=0.0}
+62 time1.001
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
+60 time1.002
++++Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+61 time1.002
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=6000, finish=0.0}
+62 time2.002
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
+0
+2.003
+61 time2.003
+tasks null + Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
+60 time2.003
++++Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=5000, finish=0.0}
+62 time3.003
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+61 time3.004
+60 time3.004
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
++++Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=4000, finish=0.0}
+62 time4.004
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
+0
+61 time4.005
+4.005
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks null + Task2{start=2, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+60 time4.005
++++Task2{start=2, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=3000, finish=0.0}
+62 time5.005
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task2{start=2, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+0
+5.006
+5.006
+tasks null + Task5{start=4, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
+tasks null + Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+61 time5.006
+60 time5.006
++++Task5{start=4, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
++++Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=2000, finish=0.0}
+62 time6.006
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task5{start=4, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+61 time6.007
+60 time6.007
++++Task5{start=4, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
++++Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=1000, finish=0.0}
+62 time7.007
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task5{start=4, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
+0
+61 time7.008
+7.008
++++Task5{start=4, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+8.008
+tasks null + Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=5000, finish=0.0}
+62 time8.008
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task5{start=4, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
+61 time8.009
++++Task5{start=4, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=4000, finish=0.0}
+62 time9.009
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task5{start=4, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+9.01
+tasks null + Task8{start=10, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+60 time10.001
++++Task8{start=10, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=3000, finish=0.0}
+62 time10.01
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task8{start=10, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+11.002
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=2000, finish=0.0}
+62 time11.011
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=1000, finish=0.0}
+62 time12.012
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.013
+notify 60
+notify 61
+notify 62
+OK
+Running SITA_Test2 (10 points)...
+tasks null + Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=8000, finish=0.0}
+68 time0.0
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=8000, finish=0.0}
+tasks null + Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=5000, finish=0.0}
+67 time0.0
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=5000, finish=0.0}
+tasks null + Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+66 time0.0
++++Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=7000, finish=0.0}
+68 time1.001
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+67 time1.001
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
+66 time1.001
++++Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
+67 time2.002
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=6000, finish=0.0}
+0
+68 time2.002
+2.002
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=6000, finish=0.0}
+tasks null + Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+66 time2.002
++++Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
+67 time3.003
+---Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=5000, finish=0.0}
+66 time3.003
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
+68 time3.003
++++Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task1{start=1, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
+68 time4.004
+0
+tasks Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=3000, finish=0.0}
+4.004
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=4000, finish=0.0}
+tasks null + Task2{start=2, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+66 time4.004
+67 time4.004
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task2{start=2, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task2{start=2, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+5.005
+tasks null + Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=3000, finish=0.0}
+67 time5.005
++++Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=3000, finish=0.0}
+68 time5.005
+0
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=3000, finish=0.0}
+5.005
+tasks null + Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+66 time5.005
++++Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=2000, finish=0.0}
+68 time6.006
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=2000, finish=0.0}
+67 time6.006
+66 time6.006
++++Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=2000, finish=0.0}
++++Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=1000, finish=0.0}
+0
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=1000, finish=0.0}
+7.007
+68 time7.007
+67 time7.007
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+0
+8.008
+8.008
+tasks null + Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=5000, finish=0.0}
+tasks null + Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
+68 time8.008
+67 time8.008
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=5000, finish=0.0}
++++Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=4000, finish=0.0}
+67 time9.009
+68 time9.009
++++Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
+68 time10.01
+67 time10.01
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=3000, finish=0.0}
++++Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
+68 time11.011
+67 time11.011
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=2000, finish=0.0}
++++Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=1000, finish=0.0}
+68 time12.012
+0
++++Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=1000, finish=0.0}
+12.012
+---Task7{start=1, duration=5000, type=LONG, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.013
+notify 66
+notify 67
+notify 68
+OK
+Running SITA_Test3 (10 points)...
+tasks null + Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=8000, finish=0.0}
+tasks null + Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=5000, finish=0.0}
+tasks null + Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+74 time0.001
+73 time0.001
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=8000, finish=0.0}
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=5000, finish=0.0}
+72 time0.001
++++Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=7000, finish=0.0}
+tasks Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=7000, finish=0.0} + Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=5000, finish=0.0}
+74 time1.002
++++Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=5000, finish=0.0}
+---Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=4000, finish=0.0}
+73 time1.002
+tasks Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0} + Task1{start=1, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=4000, finish=0.0}
+72 time1.002
++++Task1{start=1, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=1, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+72 time2.003
++++Task1{start=1, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=4000, finish=0.0}
+73 time2.003
+74 time2.003
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=3000, finish=0.0}
++++Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=4000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=3000, finish=0.0}
+74 time3.004
+---Task1{start=1, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
++++Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=3000, finish=0.0}
+0
+3.004
+tasks null + Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+72 time3.004
++++Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+73 time3.004
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=2000, type=SHORT, priority=100, isPreemptible=true, left=0, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=1000, finish=0.0}
+0
+74 time4.005
+4.005
+tasks Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=1000, finish=0.0} + Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=3000, finish=0.0}
+tasks null + Task2{start=2, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
++++Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=2000, finish=0.0}
+73 time4.005
++++Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=3000, finish=0.0}
+72 time4.005
++++Task2{start=2, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=2, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=1000, finish=0.0}
+73 time5.006
++++Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=2000, finish=0.0}
+0
+74 time5.006
+5.006
++++Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=1000, finish=0.0}
+tasks null + Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+72 time5.006
++++Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task7{start=1, duration=5000, type=LONG, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+6.007
+tasks null + Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=7000, finish=0.0}
+74 time6.007
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=7000, finish=0.0}
+---Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=1000, finish=0.0}
+73 time6.007
++++Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+72 time6.007
++++Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task8{start=4, duration=3000, type=MEDIUM, priority=200, isPreemptible=false, left=0, finish=0.0}
+---Task4{start=3, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+0
+7.008
+7.008
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=6000, finish=0.0}
+tasks null + Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=1000, finish=0.0}
+74 time7.008
+73 time7.008
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=6000, finish=0.0}
++++Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task3{start=0, duration=5000, type=MEDIUM, priority=100, isPreemptible=true, left=0, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=5000, finish=0.0}
+0
+74 time8.009
+8.009
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=5000, finish=0.0}
+tasks null + Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
+73 time8.009
++++Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=4000, finish=0.0}
+73 time9.01
+74 time9.01
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=4000, finish=0.0}
++++Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
+73 time10.011
+74 time10.011
++++Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=2000, finish=0.0}
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
+73 time11.012
++++Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=1000, finish=0.0}
+74 time11.012
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task5{start=3, duration=4000, type=MEDIUM, priority=100, isPreemptible=false, left=0, finish=0.0}
+74 time12.013
++++Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=1000, finish=0.0}
+0
+12.013
+---Task6{start=0, duration=8000, type=LONG, priority=100, isPreemptible=true, left=0, finish=0.0}
+0
+13.014
+notify 72
+notify 73
+notify 74
+OK
+Running LWL_Test1 (5 points)...
+tasks null + Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+79 time0.001
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+tasks null + Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+78 time1.001
++++Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+79 time1.002
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+78 time2.002
++++Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+79 time2.003
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+78 time3.003
++++Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+79 time3.004
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+4.004
+tasks null + Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+78 time4.004
++++Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+79 time4.005
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+78 time5.005
++++Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+79 time5.006
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+78 time6.006
++++Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+79 time6.007
++++Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+78 time7.007
++++Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+7.008
+tasks null + Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+79 time7.008
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+8.008
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+79 time8.009
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+tasks null + Task4{start=9, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+78 time9.001
++++Task4{start=9, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+79 time9.01
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task4{start=9, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+10.002
+tasks null + Task5{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+78 time10.002
++++Task5{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+79 time10.011
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task5{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+78 time11.003
++++Task5{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+79 time11.012
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task5{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.004
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+79 time12.013
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+79 time13.014
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+14.015
+notify 78
+notify 79
+OK
+Running LWL_Test2 (5 points)...
+85 time0.003
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+tasks null + Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+84 time1.003
++++Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+85 time1.004
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+84 time2.003
++++Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks null + Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+83 time2.003
++++Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+85 time2.005
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+84 time3.004
++++Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+83 time3.004
++++Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+85 time3.006
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task1{start=1, duration=3000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+---Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+83 time4.005
++++Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+0
+4.005
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+85 time4.006
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+tasks null + Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+84 time5.003
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+83 time5.006
++++Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+85 time5.007
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+tasks null + Task4{start=6, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+82 time6.003
++++Task4{start=6, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+84 time6.004
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+83 time6.007
++++Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+85 time6.008
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task4{start=6, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+7.004
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+84 time7.005
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task2{start=2, duration=5000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+7.008
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+85 time7.009
++++Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+84 time8.005
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=8000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+8.01
+tasks null + Task5{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+85 time9.004
++++Task5{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+84 time9.006
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+tasks null + Task6{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+83 time10.001
++++Task6{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks null + Task7{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+82 time10.003
++++Task7{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task5{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+85 time10.005
++++Task5{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+84 time10.007
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task6{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+83 time11.002
++++Task6{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task7{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+82 time11.004
++++Task7{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+85 time11.006
++++Task5{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+84 time11.008
++++Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task6{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.003
+---Task7{start=10, duration=2000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.005
+---Task5{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+85 time12.007
++++Task5{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task3{start=5, duration=7000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+12.009
+---Task5{start=9, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.008
+notify 82
+notify 83
+notify 84
+notify 85
+OK
+Running LWL_Test3 (10 points)...
+tasks null + Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=10000, finish=0.0}
+90 time0.0
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=10000, finish=0.0}
+tasks null + Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+89 time1.001
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=9000, finish=0.0}
+90 time1.002
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=9000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+89 time2.002
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+90 time2.003
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0} + Task3{start=3, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+89 time3.003
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+90 time3.004
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task3{start=3, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+89 time4.004
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+90 time4.005
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+5.005
+tasks null + Task3{start=3, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+89 time5.005
++++Task3{start=3, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+90 time5.006
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task3{start=3, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+89 time6.006
++++Task3{start=3, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+90 time6.007
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task3{start=3, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+7.007
+tasks null + Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+89 time7.007
++++Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+90 time7.008
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+89 time8.008
++++Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0} + Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+90 time8.009
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+89 time9.009
++++Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+90 time9.01
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+89 time10.01
++++Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+10.011
+tasks null + Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+90 time10.011
++++Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+11.011
+---Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+90 time11.012
++++Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+12.013
+tasks null + Task4{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+90 time12.013
++++Task4{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.014
+notify 89
+notify 90
+OK
+Running LWL_Test4 (10 points)...
+tasks null + Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=10000, finish=0.0}
+94 time0.001
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=10000, finish=0.0}
+tasks null + Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+93 time1.001
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=4000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=9000, finish=0.0}
+94 time1.002
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=9000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+tasks Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0} + Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=4000, finish=0.0}
+93 time2.002
++++Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=4000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+94 time2.003
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=8000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=3000, finish=0.0}
+93 time3.003
++++Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=3000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+94 time3.004
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=7000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=2000, finish=0.0}
+tasks Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=2000, finish=0.0} + Task3{start=4, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+93 time4.004
++++Task3{start=4, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+94 time4.005
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=6000, finish=0.0}
+---Task3{start=4, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+93 time5.005
++++Task3{start=4, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+94 time5.006
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=5000, finish=0.0}
+---Task3{start=4, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+6.006
+tasks null + Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=2000, finish=0.0}
+93 time6.006
++++Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=2000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+94 time6.007
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=4000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=1000, finish=0.0}
+93 time7.007
++++Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=1000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+94 time7.008
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=3000, finish=0.0}
+---Task2{start=2, duration=4000, type=SHORT, priority=150, isPreemptible=true, left=0, finish=0.0}
+0
+8.008
+tasks null + Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+93 time8.008
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=3000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+tasks Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0} + Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+94 time8.009
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+93 time9.009
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=2000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+tasks Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0} + Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+94 time9.01
++++Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+93 time10.01
++++Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=1000, finish=0.0}
+---Task0{start=0, duration=10000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+10.011
+tasks null + Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+94 time10.011
++++Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=2000, finish=0.0}
+---Task1{start=1, duration=4000, type=SHORT, priority=100, isPreemptible=true, left=0, finish=0.0}
+0
+11.011
+---Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+94 time11.012
++++Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=1000, finish=0.0}
+---Task5{start=8, duration=2000, type=SHORT, priority=200, isPreemptible=false, left=0, finish=0.0}
+0
+12.013
+tasks null + Task4{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+94 time12.013
++++Task4{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=1000, finish=0.0}
+---Task4{start=7, duration=1000, type=SHORT, priority=100, isPreemptible=false, left=0, finish=0.0}
+0
+13.014
+notify 93
+notify 94
+OK
+Total: 120/120

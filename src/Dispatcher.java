@@ -5,7 +5,8 @@ import java.util.List;
 /**
  * Abstract class for a task dispatcher.
  */
-public abstract class Dispatcher {
+public abstract class
+Dispatcher {
     protected final SchedulingAlgorithm algorithm;
     protected final List<Host> hosts;
 

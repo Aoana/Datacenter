@@ -129,7 +129,7 @@ public class Main {
 
         // verify the result of this test
         try {
-            String output = new Scanner(new File("in" + File.separator + test.inFolder + File.separator + "out")).useDelimiter("\\Z").next();
+            String output = new Scanner(new File("checker/in" + File.separator + test.inFolder + File.separator + "out")).useDelimiter("\\Z").next();
             if (!result.toString().startsWith(output)) {
                 System.out.println("Test failed... Output is:");
                 System.out.println(result);

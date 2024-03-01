@@ -36,6 +36,7 @@ public class TaskGenerator extends Thread {
                     e.printStackTrace();
                 }
             }
+            System.out.println("-------------------add task-----------------------------");
             dispatcher.addTask(task);
         }
     }

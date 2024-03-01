@@ -1,0 +1,43 @@
+Popescu Ioana- 334CA
+TEMA2-APD
+
+In MyDispatcher:
+	In addTask am facut un switch sa se ia fiecare algortim si sa se apeleze
+	funtia specifica pentr fiecare politica de planificare
+	
+	In funtia roundRobin doar am aplicat formula data in tema, sa sie la ce
+	host sa se duca task ul si am folosit sincroizarea la fiecare algoritm.
+	La final, cum am facut pentru toate functiile am adaugat taskul in hostul
+	specific si aplic notify pentru a notifica threadul.
+	
+	In functia shortestQueue tot asa am calculat sa vad dimenziunea cozii +
+	s a mai adaugat 1 daca taskul era in executie. Apoi verific daca sunt
+	egale si atunci se trateaza dupa ID ul cel mai mic.
+	
+	In functia sizeIntervalTaskAssignment cu un switch vad tipul fiecarui task
+	si ii asociez host ul corespunzator(0/1/2).
+	
+	In functia leastWorkLeft este similar impelemtarea ca la shortestQueue,
+	doar ca aici adaug la munca ramasa munca celor din coada + munca ramasa
+	taskului curent care se executa(asta cu ajutorul functiei runningTaskLeft
+	unde vad cat timp mai are un task care e in executie.
+	
+
+In MyHost:
+	Am facut prima data niste functii pentru proprietatile de prioritate si
+	preemptibilitate, o functie de execute in care sa se procesze taskul
+	daca mai are timp ramas, il fac sa scada de fiecare dara, iar cand
+	se terina timpul, taskul se pune pe finish si taskul curent devine iar
+	null.
+	
+	In run am o variablia atomica finish si daca inca nu e pe fals, se
+	preempteaza daca e necesar, adica se face schimbul efectiv intre task uri,
+	iar apoi se executa. Cand o sa se termine, execute intoarce true si 
+	coada e goala, nu mai sunt task uri de executat, folosind sincronizarea
+	se face wait, asteptand urmatoarele task uri.
+	
+	Am folosit si o coada de prioritati, taskQueue, unde se compara mai intai
+	dupa prioritate descrescator iar mai apoi dupa ID, primul venit e pus
+	primul.
+	
+	
